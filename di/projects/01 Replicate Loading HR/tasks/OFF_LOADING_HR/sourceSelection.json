@@ -1,6 +1,0 @@
-{
-  "sourceConnection": "{{task.off_loading_hr-groo.sourceConnection}}",
-  "includePatterns": [],
-  "excludePatterns": [],
-  "explicitlySelected": []
-}
