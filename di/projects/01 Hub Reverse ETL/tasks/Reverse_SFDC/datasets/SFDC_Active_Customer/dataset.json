@@ -1,0 +1,28 @@
+{
+  "id": "ab_dwh_marketing-kulz",
+  "name": "SFDC_Active_Customer",
+  "type": "DATAFLOW",
+  "inputDatasets": [
+    {
+      "datasetId": "account-bccl",
+      "projectId": "{{project.CCL_Data_Gateway_Space$_$01 Bronze Loading SFDC.projectId}}",
+      "taskId": "off_loading_crm_sfdc_storage-bccj"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "dataflowDatasetSettings": {
+    "dataflowId": "{{id(dataflow, Hub_preparation)}}",
+    "targetId": "7f4a7948-cb16-40ce-bca0-111e6acbf48a",
+    "dataflowTargetState": "VALID",
+    "incremental": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}
