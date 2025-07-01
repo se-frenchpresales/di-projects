@@ -1,0 +1,70 @@
+{
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "DROP",
+        "columnName": "DEPARTMENT_ID",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      },
+      {
+        "action": "DROP",
+        "columnName": "MANAGER_ID",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      },
+      {
+        "action": "DROP",
+        "columnName": "COMMISSION_PCT",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      },
+      {
+        "action": "DROP",
+        "columnName": "SALARY",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      },
+      {
+        "action": "DROP",
+        "columnName": "JOB_ID",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      },
+      {
+        "action": "DROP",
+        "columnName": "HIRE_DATE",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      }
+    ]
+  },
+  "datasetId": "employees",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "EMPLOYEES",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "EMPLOYEES",
+  "id": "employees-5paa",
+  "description": ""
+}
