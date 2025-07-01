@@ -32,22 +32,6 @@
         "ordinal": 0,
         "nullable": true,
         "markAsMetadata": false
-      },
-      {
-        "action": "DROP",
-        "columnName": "JOB_ID",
-        "primaryKeyOrdinal": 0,
-        "ordinal": 0,
-        "nullable": true,
-        "markAsMetadata": false
-      },
-      {
-        "action": "DROP",
-        "columnName": "HIRE_DATE",
-        "primaryKeyOrdinal": 0,
-        "ordinal": 0,
-        "nullable": true,
-        "markAsMetadata": false
       }
     ]
   },
