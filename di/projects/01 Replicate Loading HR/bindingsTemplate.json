@@ -6,8 +6,7 @@
     "task.off_loading_hr-groo.sourceConnection": "",
     "task.off_loading_hr-groo.targetConnection": "",
     "task.off_loading_hr-groo.targetSchema": "",
-    "task.off_loading_hr-groo.targetStorageConnection": "",
-    "task.off_loading_hr-groo:null$_$HR.schema": ""
+    "task.off_loading_hr-groo.targetStorageConnection": ""
   },
   "idToNameMap": {
     "off_loading_hr-groo": "OFF_LOADING_HR"
