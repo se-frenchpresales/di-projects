@@ -1,0 +1,13 @@
+{
+  "sourceConnection": "{{task.off_loading_hr-groo.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "EMPLOYEES",
+      "schema": "{{task.off_loading_hr-groo:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_employees"
+    }
+  ]
+}
