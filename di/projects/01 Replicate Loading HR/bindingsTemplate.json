@@ -1,0 +1,23 @@
+{
+  "variables": {
+    "cloudStagingConnection": "",
+    "platformConnection": "",
+    "projectName": "",
+    "task.off_loading_hr--8te.sourceConnection": "",
+    "task.off_loading_hr--8te.targetConnection": "",
+    "task.off_loading_hr--8te.targetSchema": "",
+    "task.off_loading_hr--8te.targetStorageConnection": "",
+    "task.off_loading_hr--8te:null$_$HR.schema": ""
+  },
+  "idToNameMap": {
+    "off_loading_hr--8te": "off_loading_HR"
+  },
+  "connectionProperties": {
+    "task.off_loading_hr--8te.sourceConnection": {
+      "type": "repsrc_oracle"
+    },
+    "task.off_loading_hr--8te.targetConnection": {
+      "type": "reptgt_qdisnowflake"
+    }
+  }
+}

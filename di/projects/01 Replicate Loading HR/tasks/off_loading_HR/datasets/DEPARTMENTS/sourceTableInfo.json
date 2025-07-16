@@ -1,0 +1,73 @@
+{
+  "id": "$replicate$HR_departments",
+  "name": "HR_DEPARTMENTS",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "DEPARTMENTS",
+    "dbSchema": "{{task.off_loading_hr--8te:null$_$HR.schema}}",
+    "columns": [
+      {
+        "name": "DEPARTMENT_ID",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "department_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "DEPARTMENT_NAME",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 30,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "department_name",
+        "flags": "NONE"
+      },
+      {
+        "name": "MANAGER_ID",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "manager_id",
+        "flags": "NONE"
+      },
+      {
+        "name": "LOCATION_ID",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT2",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "location_id",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

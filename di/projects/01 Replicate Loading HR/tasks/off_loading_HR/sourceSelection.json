@@ -1,0 +1,13 @@
+{
+  "sourceConnection": "{{task.off_loading_hr--8te.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "DEPARTMENTS",
+      "schema": "{{task.off_loading_hr--8te:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_departments"
+    }
+  ]
+}
