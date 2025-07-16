@@ -8,6 +8,12 @@
       "schema": "{{task.off_loading_hr--8te:null$_$HR.schema}}",
       "type": "TABLE",
       "sourceTableId": "$replicate$HR_departments"
+    },
+    {
+      "name": "EMPLOYEES",
+      "schema": "{{task.off_loading_hr--8te:null$_$HR.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$HR_employees"
     }
   ]
 }
